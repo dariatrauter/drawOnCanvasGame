@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>abc</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div id="wrap">
+
+        <div id="mainSection">
+            <div class="sideMenu">
+                
+                <span id="playerScore"></span>
+                
+            </div>
+            <div id="canvasWrap">
+                <canvas id="spielCanvas" width=800 height=600 oncontextmenu="return false"></canvas>
+                <div id="footer">
+                    <div id="antwortWrap">
+                        <input id="inputAntwort" type="text" placeholder="Antwort ist">
+                        <button id="btnSendAntwort">&#10095;&#10095;&#10095;&#10095;&#10095;</button>
+                    </div>
+                </div>
+            </div>
+            <div class = "sideMenu"></div>
+        </div>
+    </div>
+</body>
+
+</html>

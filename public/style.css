@@ -1,0 +1,78 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#footer {
+    position:relative;
+    width: 800px;
+    height: 100px;
+    background-color: #50514f;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainSection {
+    display: flex;
+    width: 60%;
+    min-width: 1000px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #247ba0;
+    border: 1px solid grey;
+}
+
+.falseAnswer {
+    background-color: #b14643;
+    background: linear-gradient(to right, #ffe997,#da1b60);
+    color : #fff;
+}
+
+#btnSendAntwort{
+    font-size: 1.5em;
+    border: 2px outset lightgrey;
+}
+
+#playerScore{
+    font-size: 5.0em;
+}
+
+#btnSendAntwort:hover{
+    background: linear-gradient(to right,#ffe997,#da1b60);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+
+#canvasWrap {
+    min-width: 800px;
+    flex: 5;
+}
+
+#inputAntwort {
+    font-size: 1.5em;
+    color: #50514f;
+}
+
+.sideMenu {
+    text-align: center;
+    color: aliceblue;
+    flex:2;
+    line-height: 600px;
+    min-width: 100px;
+}
+
+#spielCanvas {
+   
+    position:relative;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid grey;
+}
